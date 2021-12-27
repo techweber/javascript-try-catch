@@ -1,0 +1,13 @@
+<script>
+	function noExistentFunction(){
+		console.log('hello world');
+	}
+	
+	try{
+		noExistentFunction();
+	} catch(error){
+		console.log(error);
+	} finally{
+		console.log('Game Over');
+	}
+</script>
